@@ -114,6 +114,7 @@ class Game:
 
 
 def main() ->None:
+    print("Приветствую вас в игре Black Jack!")
     name = input("Ваше имя: ")
     game = Game(name)
     game.start()
